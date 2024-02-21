@@ -58,20 +58,31 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
-
 #contact .contact-list img {
     width: 20px; /* Adjust the width to make the images smaller */
     height: auto; /* Maintain the aspect ratio */
+    padding-right: 15px;
+    margin-bottom: 10px;
 }
+
+#contact .contact-list a {
+    text-decoration: none; /* Remove underlines from links */
+    display: flex; /* Use flexbox layout */
+}
+
 
 ul,ol {
     list-style: none;
     padding: 0;
 }
 
+
 .contact-list li {
-    margin-bottom: 10px; /* Optional: Add some space between each contact link */
+    margin-top: 10px;
+/* Optional: Add some space between each contact link */
+
 }
+
 
 footer {
     margin-top: auto;
