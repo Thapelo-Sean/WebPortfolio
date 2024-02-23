@@ -12,6 +12,8 @@ text-align: right; /* Align list items to the right */
 padding-bottom: 20px;
 }
 
+
+
 header h2 {
   text-align: left;
 }
@@ -94,6 +96,56 @@ footer {
     text-align: left;
     padding: 0.1px;
 }
+
+
+
+
+/* CSS code for header styling and animations */
+/*.header {
+  color: black;
+}*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}*/
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Change to desired hover color */
+}
+
+/* Animation effects */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
