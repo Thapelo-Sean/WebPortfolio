@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <title>MyWebsite</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="Javascript.js" defer></script> <!-- Ensure this script runs after the DOM is loaded -->
 </head>
 <body>
 
-<div id="header">
-
-</div>
-<section id="home">
+<header>
+    <div class="container">
+        <h1><a href="Home.html">Thapelo Matji</a></h1>
+        <nav class="headers">
+            <ul>
+                <li><a href="Home.html" class="home">Home</a></li>
+                <li><a href="about.html" class="about">About</a></li>
+                <li><a href="skills.html" class="skills">Skills</a></li>
+                <li><a href="services.html" class="services">Services</a></li>
+                <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section>
     <div class="container">
         <h2>Welcome to My Portfolio</h2>
         <p>Browse through to learn more about my skills and services.</p>
@@ -23,5 +34,6 @@
         <p>&copy; 2024 Thapelo Matji. All rights reserved.</p>
     </div>
 </footer>
+<script src="Javascript.js"></script> <!-- Ensure this script runs after the DOM is loaded -->
 </body>
 </html>

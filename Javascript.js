@@ -6,3 +6,14 @@ fetch('header.html')
     document.getElementById("header").innerHTML = data;
   })
   .catch(error => console.error('Error fetching header:', error)); // Log any errors
+
+// JavaScript to handle setting the active class based on current URL
+document.addEventListener('DOMContentLoaded', function() {
+  const currentLocation = window.location.href;
+  const links = document.querySelectorAll('header ul li a');
+  links.forEach(link => {
+    if (link.href === currentLocation) {
+      link.classList.add('active');
+    }
+  });
+});
