@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -8,8 +8,26 @@ body {
 
 
 header nav ul {
-text-align: right; /* Align list items to the right */
-padding-bottom: 20px;
+    text-align: right; /* Align list items to the right */
+    background-color: rgba(22, 22, 23, .8);
+    height: 44px;
+    color: rgba(0, 0, 0, .8);
+    color-secondary: #333336;
+    font-size: 20px;
+    backdrop-filter: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+    user-select: none;*/
 }
 
 .container {
@@ -34,8 +52,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #E8E8ED;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
 }
 
 
