@@ -83,10 +83,7 @@ nav ul li a {
 }
 
 
-ul,ol {
-    list-style: none;
-    padding: 0;
-}
+
 
 
 .contact-list li {
@@ -117,16 +114,6 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-
-nav ul li a {
-    position: relative; /* Make the anchor tag a positioned element */
-}
-
 nav ul li a::before {
     content: ''; /* Add a pseudo-element */
     position: absolute;
@@ -152,18 +139,7 @@ nav ul li a.active::before {
 nav ul li a {
     position: relative; */
 /* Make the anchor tag a positioned element *//
-
 }
-
-
-
-nav ul li a:hover::before {
-    transform: scaleX(1);
-/* Scale the line to full width on hover */
-
-}
-
-
 
 nav ul li:hover a::before {
     transform: scale(1.1); /* Scale up the pseudo-element on hover */
@@ -175,12 +151,8 @@ nav ul li:hover a::before {
       padding: 5px 5px;
     }
 
-    header a:hover {
-        font-weight: bold; *//* Make the text bold */
-    }
-
     .active {
-        color: red; /* Change to desired color */
+        color: white; /* Change to desired color */
         font-weight: bold; /* Make the text bold */
     }
 
